@@ -1,12 +1,43 @@
 ---
 title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
-date: "2022-07-18"
-categories: [news]
+author: "Sum Yee Chong"
+date: "2026-10-05"
+categories: [health, hospitals, data story]
+bibliography: references.bib
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 This is the first post in a Quarto blog. Welcome!
 
 ![](thumbnail.jpg)
+```{r}
+#| label: setup
+library(tidyverse)
+```
 
+```{r}
+#| label: tbl-compare
+#| tbl-cap: "Germany had fewer infections per hospital patient but more per 100,000 people than the European (EU/EEA) average, 2011–12."
+
+# Values reported in Zacher et al. (2019), rounded for readers
+germany_vs_eu <- tibble(
+  `How it is counted` = c(
+    "New infections per 100 hospital patients",
+    "New infections per 100,000 people",
+    "Healthy years lost per 100,000 people"
+  ),
+  Germany = c("2.4", "592", "308"),
+  `European average` = c("2.8", "468", "290"),
+  `What the comparison suggests` = c(
+    "Lower in Germany",
+    "Higher in Germany",
+    "Difference uncertain"
+  )
+)
+
+knitr::kable(germany_vs_eu, align = "lrrl")
+```
 
