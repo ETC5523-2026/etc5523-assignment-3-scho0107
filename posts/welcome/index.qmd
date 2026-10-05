@@ -17,6 +17,26 @@ This is the first post in a Quarto blog. Welcome!
 #| label: setup
 library(tidyverse)
 ```
+Germany had fewer hospital infections per 100 patients than the European average in 2011–12. But when infections were measured across the population, Germany had more. Researchers linked this difference to Germany’s high level of hospital use.
+
+## Nearly half a million hospital infections in one year
+
+Some patients pick up a new infection while receiving hospital care, separate from the illness that brought them to hospital in the first place. These are known as healthcare-associated infections. In 2011, Germany had an estimated 478,000 cases of five common types, with around 16,000 deaths attributed to them [@zacher2019]. Earlier research cited in the study suggested that around 20–30% of these infections could be prevented.
+
+Comparing hospital safety between countries is not as simple as it might seem, because the result can change depending on what is being measured. This post looks at two questions:
+
+1. Is Germany's hospital infection problem worse than the European average?
+2. Is the most common infection also the most harmful?
+
+## Where the numbers come from
+
+The figures come from a study by Zacher and colleagues, published in *Eurosurveillance* [@zacher2019]. The study used hospital survey data collected in 2011–12 by the European Centre for Disease Prevention and Control (ECDC). In each hospital, researchers recorded which patients had an infection on the day of the survey.
+
+The German sample included about 9,600 patients from 46 randomly selected hospitals. The European average was based on about 274,000 patients from 1,149 hospitals across the European Union and European Economic Area (EU/EEA).
+
+The researchers used these survey results to estimate how many new infections occurred over a year. They also estimated the harm caused by these infections using disability-adjusted life years (DALYs), a measure of healthy years lost through early death or time lived in poor health. In other words, an infection that causes little lasting harm does not count the same as one that causes severe illness or death.
+
+## Below the European average per patient, above it across the population
 
 ```{r}
 #| label: tbl-compare
