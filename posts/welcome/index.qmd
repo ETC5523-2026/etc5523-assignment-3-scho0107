@@ -1,5 +1,5 @@
 ---
-title: "Welcome To My Blog Template"
+title: "Germany had fewer hospital infections per patient, but more across the population"
 author: "Sum Yee Chong"
 date: "2026-10-05"
 categories: [health, hospitals, data story]
@@ -60,6 +60,18 @@ germany_vs_eu <- tibble(
 
 knitr::kable(germany_vs_eu, align = "lrrl")
 ```
+*Note: The study reported substantial uncertainty around the comparison in healthy years lost.*
+
+Whether Germany looked better or worse depended on how infections were counted (@tbl-compare). For every 100 hospital patients, Germany had 2.4 new infections, compared with the European average of 2.8. But when the same infections were counted across the whole population, the order flipped: Germany had 592 infections per 100,000 people, compared with the European average of 468.
+
+How could both be true? The researchers linked this reversal to Germany's high level of hospital use. At the time, Germany had the highest number of acute-care hospital beds in Europe and the second-highest rate of hospital patients per 1,000 people among 34 OECD countries. They also suggested that good hygiene may partly explain Germany's lower rate per patient. At the same time, the large number of people passing through hospitals could help explain why infections were more common across the population.
+
+So, was Germany's problem worse? Measured across the population, there were more infections. Whether this led to greater overall health loss was less clear. Germany lost an estimated 308 healthy years per 100,000 people, compared with the European average of 290, but the uncertainty around this comparison was wide.
+
+## The most common infection was not the most harmful
+
+Counting cases treats every infection the same. Looking at healthy years lost shows which infections caused the greatest health loss (@fig-shares).
+
 ```{r}
 #| label: fig-shares
 #| fig-cap: "Pneumonia and bloodstream infections (blue) made up a larger share of healthy years lost than of infections. Germany, 2011. Shares calculated from Zacher et al. (2019)."
@@ -127,4 +139,5 @@ ggplot(
     strip.text = element_text(face = "bold")
   )
 ```
+
 
