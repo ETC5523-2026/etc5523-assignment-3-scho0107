@@ -40,4 +40,71 @@ germany_vs_eu <- tibble(
 
 knitr::kable(germany_vs_eu, align = "lrrl")
 ```
+```{r}
+#| label: fig-shares
+#| fig-cap: "Pneumonia and bloodstream infections (blue) made up a larger share of healthy years lost than of infections. Germany, 2011. Shares calculated from Zacher et al. (2019)."
+#| fig-width: 8
+#| fig-height: 3.5
+
+# Cases and healthy years lost (DALYs) for each infection type in Germany
+hai_germany <- tibble(
+  infection = c(
+    "Pneumonia",
+    "Urinary tract infection",
+    "Bloodstream infection",
+    "Surgical wound infection",
+    "C. difficile gut infection"
+  ),
+  cases = c(106586, 214150, 26976, 93222, 36002),
+  dalys = c(69508, 66701, 58350, 28842, 20890)
+)
+
+# Totals for all five types
+total_cases <- 478222
+total_dalys <- 248920
+
+hai_shares <- hai_germany |>
+  mutate(
+    `Share of infections` = cases / total_cases * 100,
+    `Share of healthy years lost` = dalys / total_dalys * 100,
+    highlight = ifelse(infection == "Pneumonia" | infection == "Bloodstream infection",
+                       "Yes", "No")
+  ) |>
+  pivot_longer(
+    cols = c(`Share of infections`, `Share of healthy years lost`),
+    names_to = "share_type",
+    values_to = "percent"
+  ) |>
+  mutate(share_type = factor(share_type,
+                             levels = c("Share of infections", "Share of healthy years lost")))
+
+ggplot(
+  hai_shares,
+  aes(
+    x = percent,
+    y = fct_reorder(infection, dalys),
+    fill = highlight
+  )
+) +
+  geom_col() +
+  geom_text(
+    aes(label = paste0(round(percent), "%")),
+    hjust = -0.2,
+    size = 3.5
+  ) +
+  facet_wrap(~ share_type) +
+  scale_fill_manual(values = c("Yes" = "#006DAE", "No" = "grey70"),
+                    guide = "none") +
+  expand_limits(x = 55) +
+  labs(
+    x = "Percentage of the total for all five infection types",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    strip.text = element_text(face = "bold")
+  )
+```
 
