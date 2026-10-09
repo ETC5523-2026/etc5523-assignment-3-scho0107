@@ -1,4 +1,29 @@
 /* css styles */
+:root {
+  --ink: #222222;
+  --accent: #006DAE;
+  --page-bg: #FAFAF7;
+  --soft-bg: #EEF4F9;
+}
+
 .navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+  background-color: var(--accent);
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+h2, h3 {
+  color: var(--accent);
+}
+
+.finding {
+  border-left: 6px solid var(--accent);
+  background-color: var(--soft-bg);
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
 }
