@@ -6,8 +6,12 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
+      href: https://github.com/scho0107
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi, I'm Sum Yee Chong. I'm studying a Master of Business Analytics at Monash University, where I'm learning how to analyse data and explain the results to people who are not data specialists.  
+
+I'm especially interested in how data can be used to make complex topics easier to understand. I also enjoy thinking about how the way information is presented can change what people notice first.  
+
+This site is where I share short data stories that turn research findings into something easier to read.
