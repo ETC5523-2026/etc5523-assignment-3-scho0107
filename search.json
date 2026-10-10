@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, I’m Sum Yee Chong. I’m studying a Master of Business Analytics at Monash University, where I’m learning how to analyse data and explain the results to people who are not data specialists.\nI’m especially interested in how data can be used to make complex topics easier to understand. I also enjoy thinking about how the way information is presented can change what people notice first.\nThis site is where I share short data stories that turn research findings into something easier to read."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Germany had fewer hospital infections per patient, but more across the population",
+    "section": "",
+    "text": "Germany had fewer hospital infections per 100 patients than the European average in 2011–12. But when infections were measured across the population, Germany had more. Researchers linked this difference to Germany’s high level of hospital use."
+  },
+  {
+    "objectID": "posts/welcome/index.html#nearly-half-a-million-hospital-infections-in-one-year",
+    "href": "posts/welcome/index.html#nearly-half-a-million-hospital-infections-in-one-year",
+    "title": "Germany had fewer hospital infections per patient, but more across the population",
+    "section": "Nearly half a million hospital infections in one year",
+    "text": "Nearly half a million hospital infections in one year\nSome patients pick up a new infection while receiving hospital care, separate from the illness that brought them to hospital in the first place. These are known as healthcare-associated infections. In 2011, Germany had an estimated 478,000 cases of five common types, with around 16,000 deaths attributed to them (Zacher et al., 2019). Earlier research cited in the study suggested that around 20–30% of these infections could be prevented.\nComparing hospital safety between countries is not as simple as it might seem, because the result can change depending on what is being measured. This post looks at two questions:\n\nIs Germany’s hospital infection problem worse than the European average?\nIs the most common infection also the most harmful?"
+  },
+  {
+    "objectID": "posts/welcome/index.html#where-the-numbers-come-from",
+    "href": "posts/welcome/index.html#where-the-numbers-come-from",
+    "title": "Germany had fewer hospital infections per patient, but more across the population",
+    "section": "Where the numbers come from",
+    "text": "Where the numbers come from\nThe figures come from a study by Zacher and colleagues, published in Eurosurveillance (Zacher et al., 2019). The study used hospital survey data collected in 2011–12 by the European Centre for Disease Prevention and Control (ECDC). In each hospital, researchers recorded which patients had an infection on the day of the survey.\nThe German sample included about 9,600 patients from 46 randomly selected hospitals. The European average was based on about 274,000 patients from 1,149 hospitals across the European Union and European Economic Area (EU/EEA).\nThe researchers used these survey results to estimate how many new infections occurred over a year. They also estimated the harm caused by these infections using disability-adjusted life years (DALYs), a measure of healthy years lost through early death or time lived in poor health. In other words, an infection that causes little lasting harm does not count the same as one that causes severe illness or death."
+  },
+  {
+    "objectID": "posts/welcome/index.html#below-the-european-average-per-patient-above-it-across-the-population",
+    "href": "posts/welcome/index.html#below-the-european-average-per-patient-above-it-across-the-population",
+    "title": "Germany had fewer hospital infections per patient, but more across the population",
+    "section": "Below the European average per patient, above it across the population",
+    "text": "Below the European average per patient, above it across the population\n\n\n\n\nTable 1: Germany had fewer infections per hospital patient but more per 100,000 people than the European average, 2011–12.\n\n\n\n\n\n\n\n\n\n\n\n\nHow it is counted\nGermany\nEuropean average\nWhat the comparison suggests\n\n\n\n\nNew infections per 100 hospital patients\n2.4\n2.8\nLower in Germany\n\n\nNew infections per 100,000 people\n592\n468\nHigher in Germany\n\n\nHealthy years lost per 100,000 people\n308\n290\nDifference uncertain\n\n\n\n\n\n\n\n\nNote: The study reported substantial uncertainty around the comparison in healthy years lost.\nWhether Germany looks better or worse depends on how infections are counted (Table 1). For every 100 hospital patients, Germany had 2.4 new infections, compared with the European average of 2.8. But when the same infections were counted across the population, the order flipped: Germany had 592 new infections per 100,000 people, compared with the European average of 468.\nHow could both be true? The researchers linked this reversal to Germany’s high level of hospital use. At the time, Germany had the highest number of acute-care hospital beds in Europe and the second-highest rate of hospital patients per 1,000 people among 34 OECD countries. They also suggested that good hygiene may partly explain Germany’s lower rate per patient. At the same time, the large number of people passing through hospitals could help explain why infections were more common across the population.\nSo, was Germany’s problem worse? Measured across the population, there were more infections. Whether this led to greater overall health loss was less clear. Germany lost an estimated 308 healthy years per 100,000 people, compared with the European average of 290, but the uncertainty around this comparison was wide."
+  },
+  {
+    "objectID": "posts/welcome/index.html#the-most-common-infection-was-not-the-most-harmful",
+    "href": "posts/welcome/index.html#the-most-common-infection-was-not-the-most-harmful",
+    "title": "Germany had fewer hospital infections per patient, but more across the population",
+    "section": "The most common infection was not the most harmful",
+    "text": "The most common infection was not the most harmful\nCounting cases treats every infection the same. Looking at healthy years lost shows which infections caused the greatest health loss (Figure 1).\n\n\n\n\n\n\n\n\nFigure 1: Pneumonia and bloodstream infections (blue) made up a larger share of healthy years lost than of infections. Germany, 2011. Shares calculated from Zacher et al. (2019).\n\n\n\n\n\nUrinary tract infections were the most common, with about 214,000 cases, but they accounted for only around 27% of healthy years lost. Bloodstream infections were much less common, with about 27,000 cases, yet they still accounted for around 23% of healthy years lost.\n\nPneumonia and bloodstream infections made up only about 28% of cases, but accounted for about 51% of healthy years lost.\n\nSo the answer to the second question is no. Counting cases alone does not show which infections cause the most harm."
+  },
+  {
+    "objectID": "posts/welcome/index.html#how-you-count-changes-the-answer",
+    "href": "posts/welcome/index.html#how-you-count-changes-the-answer",
+    "title": "Germany had fewer hospital infections per patient, but more across the population",
+    "section": "How you count changes the answer",
+    "text": "How you count changes the answer\nWas Germany’s hospital infection problem worse than the European average? It depends on how the infections are counted. Germany had fewer infections per hospital patient, but more when infections were measured across the population. The researchers linked this difference to Germany’s high level of hospital use. Whether Germany also experienced greater overall health loss, however, was less clear.\nWas the most common infection also the most harmful? No. Urinary tract infections were the most common, but pneumonia and bloodstream infections together accounted for about half of the healthy years lost.\nThere are two important limitations to keep in mind. First, the data come from 2011–12, so the results should not be taken as a picture of hospital infections in Germany today. Later surveys in 2016 suggested that urinary tract infections had become less common in German hospitals, while C. difficile infections had become more common (Zacher et al., 2019). Second, the study covered five infection types, which made up about 79% of hospital infections in the ECDC survey, so it did not capture every type of infection.\nThe next time you see a headline saying that one country has more hospital infections than another, check how the infections were counted: per hospital patient, or across the whole population."
+  },
+  {
+    "objectID": "posts/welcome/index.html#references",
+    "href": "posts/welcome/index.html#references",
+    "title": "Germany had fewer hospital infections per patient, but more across the population",
+    "section": "References",
+    "text": "References\nZacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. Eurosurveillance, 24(46)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Stories",
+    "section": "",
+    "text": "Germany had fewer hospital infections per patient, but more across the population\n\n\n\nhealth\n\nhospitals\n\ndata story\n\n\n\n\n\n\n\n\n\nOct 5, 2026\n\n\nSum Yee Chong\n\n\n\n\n\nNo matching items"
+  }
+]

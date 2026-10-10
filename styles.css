@@ -1,0 +1,40 @@
+/* css styles */
+:root {
+  --ink: #222222;
+  --accent: #1F5F8B;
+  --page-bg: #FAFAF7;
+  --soft-bg: #EEF4F9;
+}
+
+.navbar-dark, .quarto-title-banner {
+  background-color: var(--accent);
+}
+
+.quarto-title-banner h1 {
+  color: white;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+h2, h3 {
+  color: var(--accent);
+}
+
+.finding {
+  border-left: 6px solid var(--accent);
+  background-color: var(--soft-bg);
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.quarto-title-banner .quarto-title .quarto-categories .quarto-category {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 4px;
+}
