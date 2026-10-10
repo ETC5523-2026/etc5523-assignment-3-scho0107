@@ -62,7 +62,7 @@ Whether Germany looks better or worse depends on how infections are counted (@tb
 
 How could both be true? The researchers linked this reversal to Germany's high level of hospital use. At the time, Germany had the highest number of acute-care hospital beds in Europe and the second-highest rate of hospital patients per 1,000 people among 34 OECD countries. They also suggested that good hygiene may partly explain Germany's lower rate per patient. At the same time, the large number of people passing through hospitals could help explain why infections were more common across the population.
 
-So, was Germany's problem worse? Measured across the population, there were more infections. Whether this led to greater overall health loss was less clear. Germany lost an estimated 308 healthy years per 100,000 people, compared with the European average of 290, but the uncertainty around this comparison was wide.
+So, was Germany's problem worse? Measured across the population, there were more infections. Whether this led to greater overall health loss was less clear. Germany lost an estimated 308 healthy years per 100,000 people, compared with the European average of 290, but the uncertainty around this comparison was wide. Germany's true figure could have been lower than, similar to or higher than the European average.
 
 ## The most common infection was not the most harmful
 
@@ -156,4 +156,4 @@ The next time you see a headline saying that one country has more hospital infec
 
 ## References
 
-Zacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. *Eurosurveillance, 24*(46).
+Zacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. *Eurosurveillance, 24*(46), 1900135. https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135
