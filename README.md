@@ -2,7 +2,7 @@
 # ETC5523 Blog Assessment
 
 * The author of this blog is **Sum Yee Chong**.
-* The URL for this blog is [https://etc5523-2023.github.io/blog-template/](https://etc5523-2023.github.io/blog-template/)
+* The URL for this blog is [https://ETC5523-2026.github.io/etc5523-assignment-3-scho0107/](https://ETC5523-2026.github.io/etc5523-assignment-3-scho0107/)
 
 ## Audience
 
